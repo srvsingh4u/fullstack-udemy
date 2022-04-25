@@ -6,41 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Runner</title>
   </head>
+  <style>
+    .reg {
+      border: solid 2px red;
+      height: auto;
+      width: auto;
+      padding: 10px;
+      background-color: aliceblue;
+    }
+    h1 {
+      text-align: center;
+      color: crimson;
+    }
+    label,
+    input {
+      color: teal;
+    }
+  </style>
   <body>
-    <h1>Race Registartion</h1>
-    <form>
-      <label for="name">First Name</label>
-      <input type="text" id="name" />
-      <label for=" last"> Last Name</label>
-      <input type="text" id="last" />
-      <p>
-        <label for="">Select A Race:</label> <br />
+    <div class="reg">
+      <h1>Race Registartion</h1>
+      <form>
+        <label for="name">First Name</label>
+        <input type="text" id="name" />
+        <label for=" last"> Last Name</label>
+        <input type="text" id="last" />
+        <p>
+          <label for="">Select A Race:</label> <br />
 
-        <input type="radio" name="race" id="fun" />
-        <label for=" fun">Fun Run 5k</label> <br />
+          <input type="radio" name="race" id="fun" />
+          <label for=" fun">Fun Run 5k</label> <br />
 
-        <input type="radio" name="race" id="half" />
-        <label for="half"> Half Marathon </label><br />
-        <input type="radio" name="race" id="full" />
-        <label for="full"> Full Marathon</label> <br />
-      </p>
-      <p>
-        <label for="mail"> Email</label>
-        <input type="email" id="mail" />
-        <label for="pass">Password</label>
-        <input type="password" id="pass" minlength="3" />
-      </p>
-      <p>
-        <label for="age"> Select Age Group </label>
-        <select id="age">
-          <option>under 18</option>
-          <option>18-30</option>
-          <option>30-50</option>
-        </select>
-      </p>
-      <p>
-        <button>Register</button>
-      </p>
-    </form>
+          <input type="radio" name="race" id="half" />
+          <label for="half"> Half Marathon </label><br />
+          <input type="radio" name="race" id="full" />
+          <label for="full"> Full Marathon</label> <br />
+        </p>
+        <p>
+          <label for="mail"> Email</label>
+          <input type="email" id="mail" />
+          <label for="pass">Password</label>
+          <input type="password" id="pass" minlength="3" />
+        </p>
+        <p>
+          <label for="age"> Select Age Group </label>
+          <select id="age">
+            <option>under 18</option>
+            <option>18-30</option>
+            <option>30-50</option>
+          </select>
+        </p>
+        <p>
+          <button>Register</button>
+        </p>
+      </form>
+    </div>
   </body>
 </html>
