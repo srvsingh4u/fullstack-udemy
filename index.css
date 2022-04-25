@@ -2,8 +2,13 @@ table,
 tr,
 th,
 td {
-  border: 2px solid saddlebrown;
+  border: 2px solid rgb(255, 128, 37);
+  text-align: center;
+  background-color: teal;
+  color: wheat;
 }
 table {
   border-collapse: collapse;
+  width: 300px;
+  height: 200px;
 }
