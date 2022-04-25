@@ -1,0 +1,39 @@
+h1 {
+  background-color: aquamarine;
+  text-align: center;
+  line-height: 40px;
+}
+
+section {
+  width: 400px;
+  height: 400px;
+  background-color: teal;
+}
+div {
+  width: 50%;
+  height: 50%;
+  background-color: brown;
+}
+article {
+  font-size: 20px;
+}
+h3 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1em;
+}
+
+p {
+  font-size: 0.8em;
+}
+button {
+  padding: 1em;
+  border-radius: 1em;
+  background-color: tan;
+}
+
+ul {
+  color: green;
+  font-size: 1rem;
+}
