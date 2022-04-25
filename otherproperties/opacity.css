@@ -1,0 +1,17 @@
+section {
+  width: 200px;
+  height: 200px;
+  background-color: teal;
+}
+#opac {
+  height: 50%;
+  width: 50%;
+  background-color: rgb(178, 152, 152);
+  opacity: 0.5;
+}
+
+#alpha {
+  height: 50%;
+  width: 50%;
+  background-color: rgb(230, 230, 98, 1);
+}
