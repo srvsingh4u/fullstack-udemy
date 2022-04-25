@@ -1,0 +1,18 @@
+h1 {
+  color: blueviolet;
+  /* display: inline; */
+}
+div {
+  border: 5px solid grey;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  background-color: teal;
+}
+span {
+  display: block;
+  border: 2px solid green;
+  margin: 10px;
+  background-color: aliceblue;
+  text-align: center;
+}
