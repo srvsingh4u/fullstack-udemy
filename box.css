@@ -22,12 +22,14 @@ h1 {
   border: 2px solid green;
   box-sizing: border-box;
   margin: 20px;
+  padding-top: 20px;
 }
 
 #two {
   border: 2px dotted blue;
   box-sizing: border-box;
   margin: 20px;
+  text-align: center;
 }
 #three {
   border: solid 5px teal;
@@ -41,4 +43,10 @@ h1 {
 }
 p {
   padding: 31px;
+}
+button {
+  padding: 4px 20px;
+  color: rgb(73, 191, 33);
+  background-color: rgb(232, 178, 133);
+  border: 0px white;
 }
