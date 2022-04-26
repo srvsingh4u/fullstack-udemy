@@ -1,0 +1,17 @@
+img {
+  /* width: 30%;
+
+  /* margin: 20px; */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+  margin: 1.66%;
+}
+nav {
+  text-transform: uppercase;
+  border-bottom: 2px solid grey;
+  width: 30%;
+  margin-left: 1.6%;
+  padding: 20px 0px;
+  font-family: "Raleway", sans-serif;
+}
