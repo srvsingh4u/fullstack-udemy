@@ -19,8 +19,12 @@
     ></script>
   </head>
   <body>
-    <div class="container-fluid">
-      <h1>Placeholder</h1>
+    <div class="container-md">
+      <h1 class="h1 text-center text-primary">Bootstrap Playground</h1>
+      <h1 class="display-6">
+        Buttons <span class="badge bg-secondary badge rounded-pill">New</span>
+      </h1>
+
       <button type="button" class="btn btn-primary">Primary</button>
       <button type="button" class="btn btn-danger">Danger</button>
       <button type="button" class="btn btn-warning">Warning</button>
@@ -30,19 +34,42 @@
       <button type="button" class="btn btn-outline-info btn-lg" disabled>
         Info
       </button>
-      <button type="button" class="btn btn-outline-info btn-sm" disabled>
-        Info
+      <button type="button" class="btn btn-primary btn-lg">
+        Notifications <span class="badge bg-secondary">4</span>
       </button>
+      <span class="badge rounded-pill bg-warning text-dark">Warning</span>
+      <div class="btn-group">
+        <button class="btn btn-warning">One</button>
+        <button class="btn btn-danger">Two</button>
+        <button class="btn btn-dark">Three</button>
+      </div>
+      <h1 class="display-6">ALERT</h1>
+      <div class="alert alert-success alert-dismissible fade show">
+        <h4 class="alert-heading">Well done!</h4>
+        This is an alert bar !
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Close"
+        ></button>
+      </div>
+      <h1 class="display-6 text-success">BlockQuote</h1>
+      <p class="lead mb-0 text-danger">
+        Molestias atque earum error magni mollitia totam quod deserunt debitis
+        consectetur quis repellendus, a illum cupiditate. Eveniet voluptatum in,
+        aut natus cumque quibusdam! Laudantium rem id, veniam aperiam amet
+        facilis pariatur sed magni eaque quaerat quia necessitatibus.
+      </p>
 
-      <p>
+      <blockquote class="blockquote text-center bg-info">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias suscipit
         ipsam similique! Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Molestias atque earum error magni mollitia totam quod deserunt
-        debitis consectetur quis repellendus, a illum cupiditate. Eveniet
-        voluptatum in, aut natus cumque quibusdam! Laudantium rem id, veniam
-        aperiam amet facilis pariatur sed magni eaque quaerat quia
-        necessitatibus.
-      </p>
+        elit.
+      </blockquote>
+      <figcaption class="blockquote-footer text-end text-info">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </figcaption>
     </div>
   </body>
 </html>
