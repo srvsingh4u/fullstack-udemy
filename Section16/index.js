@@ -124,6 +124,8 @@ switch (day) {
   case "wed":
     console.log("the day is wednesday");
     break;
+  case "thurs":
+    console.log("the day is thurasday");
   default:
     console.log("its another day");
 }
