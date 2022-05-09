@@ -13,5 +13,6 @@ const btn = document.querySelector("#btn2");
 // };
 
 button.addEventListener("click", change);
+btn.addEventListener("click", () => console.log("hy"));
 
 btn.addEventListener("click", () => alert("hy wassup"));
