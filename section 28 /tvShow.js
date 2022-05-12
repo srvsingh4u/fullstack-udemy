@@ -29,7 +29,6 @@ form.addEventListener("submit", async function (e) {
     `https://api.tvmaze.com/search/shows?q=${searchinput}`
   );
   imagePrint(movies.data);
-  //   console.log(movies.data);
 });
 
 const imagePrint = (show) => {
