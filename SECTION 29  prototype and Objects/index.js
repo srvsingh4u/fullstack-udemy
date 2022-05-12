@@ -8,18 +8,16 @@
 //     return `rgb${r}${g}${b}`;
 //   };
 
-//   return color;
-// // };
-
-// // console.log(colourGen(233, 13, 14));
-
-// // ////constructor
+//  return color; };
+//  console.log(colourGen(233, 13, 14))
+// constructor{
 // const person = function (name, age, state, cnty) {
 //   this.name = name;
 //   this.age = age;
 //   this.state = state;
 //   this.cnty = cnty;
 // };
+// }
 
 // const person1 = new person("amit", 24, "bengal", "india");
 // const person2 = new person("ajay", 23, "tn", "india");
@@ -48,11 +46,16 @@ class person {
   greet() {
     return ` HeLLO ${this.name} wassup whats your age ? hi i m ${this.age}`;
   }
+  hello() {
+    return ` hello ${this.name} and ur number is ${this.number}`;
+  }
 }
 
 const pr = new person("raj", 23, 1232896, "Assam");
-const value = Object.values(pr);
+console.log(pr);
+// const value = Object.values(pr);
 console.log(pr.greet());
+console.log(pr.hello());
 console.log(value);
 // for (let v of value) {
 //   console.log(v);
