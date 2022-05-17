@@ -15,5 +15,5 @@ console.log(pi);
 
 // // export modue
 const addd = "raj";
-module.exports.addd = addd;
+module.exports.addd = add;
 module.exports.pi = pi;
