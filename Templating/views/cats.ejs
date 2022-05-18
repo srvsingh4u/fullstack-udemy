@@ -1,0 +1,19 @@
+<%- include("partials/head")%>
+<%- include("partials/navbar")  %>
+  <body>
+    <h1>All the cats</h1>
+    <p><%=allcats %></p>
+    <ul>
+      <% for(let cat of allcats){ %>
+      <li><%= cat %></li>
+      <% } %>
+    </ul>
+
+    <!-- <ul>
+      <li><%=allcats[0] %></li>
+      <li><%=allcats[1] %></li>
+      <li><%=allcats[2] %></li>
+      <li><%=allcats[3] %></li>
+    </ul> -->
+  </body>
+</html>
